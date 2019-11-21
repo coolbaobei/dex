@@ -152,7 +152,6 @@ type GRPC struct {
 	TLSCert     string `json:"tlsCert"`
 	TLSKey      string `json:"tlsKey"`
 	TLSClientCA string `json:"tlsClientCA"`
-	Reflection  bool   `json:"reflection"`
 }
 
 // Storage holds app's storage configuration.
